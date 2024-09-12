@@ -1,0 +1,17 @@
+.content {
+    background-color:white;
+    flex:1;
+}
+@media screen and (max-width:1400px){
+    .content{
+        padding-left:0px;
+        padding-right:0px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .content{
+        padding-left:0px;
+        padding-right:0px;
+    }
+}

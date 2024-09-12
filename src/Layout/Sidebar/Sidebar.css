@@ -1,0 +1,99 @@
+.sidebar {
+    width: 220px;
+    background-color: #FFFFFF;
+    padding: 34px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    Align-items:center;
+    border-right: 1px solid #EEF2FC;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .userinfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .user_icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color:#2563DC;
+  }
+  
+  .userinfo h4 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Navigation list styling */
+  .navigation {
+    flex-grow: 1;
+  }
+  
+  .nav_list li, .Logout_side li {
+    margin: 15px 0;
+  }
+  
+  .nav_list a {
+    color: #f0f1f3;
+  }
+  
+  .nav_list button {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height:40px;
+    padding: 14px 15px;
+    border: none;
+    background:#EEF2FC;
+    cursor: pointer;
+    font-size: 14px;
+    color:#14367B;
+    transition: background-color 0.3s ease;
+    align-items:center;
+    border-radius:8px;
+    
+  }
+
+  .nav-icon {
+    margin-right: 10px;
+    margin-left:20px;
+    width:16px;
+    height:16px;
+  }
+  
+  .nav_list button:hover{
+    background:#2563DC;
+    color: #FFFFFF;
+  }
+
+  .Logout_side{
+    margin-top:480px;
+  }
+  .nav5-button{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height:40px;
+    padding: 14px 15px;
+    border: none;
+    background:#FDF0EC;
+    cursor: pointer;
+    font-size: 14px;
+    color:#81290E;
+    transition: background-color 0.3s ease;
+    align-items:center;
+    border-radius:8px;
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .sidebar {
+      padding: 24px 16px;
+    }
+    .userinfo h4{
+      font-size:16px;
+    }
+  }

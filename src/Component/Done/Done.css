@@ -1,0 +1,57 @@
+.Done-container{
+    display:grid;
+    background:#FDF0EC;
+    padding: 10px;
+    border-radius: 8px;
+    gap:12px;
+    font-family: "Poppins", sans-serif;
+}
+.Done-header{
+    display: flex;
+    color:#81290E;
+    align-items:center;
+    gap:12px;
+}
+.icon{
+    display:flex;
+    height:22px;
+    width:22px;
+}
+.Inprogress-header span{
+    font-weight:600;
+    font-size:16px;
+}
+.profile-container{
+    display:grid;
+    background-color:#FFFFFF;
+    padding:20px;
+    align-items:center;
+    jusify-content:space-between;
+    border-radius:10px;
+}
+.img-fit-cover{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.profile-icon{
+    display: flex;
+    gap:8px;
+}
+.p-icon{
+    display:flex;
+    height:22px;
+    width:22px;
+    color:#3D3D3D;
+}
+.img-container img{
+    height:40px;
+    width: 40px;
+    border-radius:100%;
+}
+.profile-container p{
+    margin-top:8px;
+    font-size:12px;
+    color:#3D3D3D;
+}

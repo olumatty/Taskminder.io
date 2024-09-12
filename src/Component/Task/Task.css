@@ -1,0 +1,37 @@
+.Task{
+    display:flex;
+    align-items:center;
+    padding: 36px;
+    justify-content:space-between;
+    font-family: "Poppins", sans-serif;
+}
+.task-name{
+    font-size:22px;
+    color:#3D3D3D;
+}
+.icons{
+    display:flex;
+    color:#3D3D3D;
+    align-items:center;
+    gap: 16px;
+}
+.btn-icons{
+    width:20px;
+    height:20px;
+}
+
+.icons button{
+    width:160px;
+    height: 42px;
+    background:#2563DC;
+    color:#ffffff;
+    border-radius:8px;
+    align-items:center;
+    justify-content:center;
+    display:flex;   
+}
+.bttn-icons{
+    width:20px;
+    height:20px;
+    margin-left:8px;
+}
