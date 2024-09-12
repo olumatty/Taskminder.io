@@ -1,125 +1,128 @@
-.inProgress-container{
-    display:grid;
-    background:#FFE4C2;
-    padding: 10px;
-    border-radius: 8px;
-    gap:12px;
-    font-family: "Poppins", sans-serif;
+.inProgress-container {
+  display: grid;
+  background: #ffe4c2;
+  padding: 10px;
+  border-radius: 8px;
+  gap: 12px;
+  font-family: "Poppins", sans-serif;
 }
-.Inprogress-header{
-    display: flex;
-    color:#8F4F00;
-    align-items:center;
-    gap:12px;
+.Inprogress-header {
+  display: flex;
+  color: #8f4f00;
+  align-items: center;
+  gap: 12px;
 }
-.icon{
-    display:flex;
-    height:22px;
-    width:22px;
+.icon {
+  display: flex;
+  height: 22px;
+  width: 22px;
 }
-.Inprogress-header span{
-    font-weight:600;
-    font-size:16px;
+.Inprogress-header span {
+  font-weight: 600;
+  font-size: 16px;
 }
-.profile-container{
-    display:grid;
-    background-color:#FFFFFF;
-    padding:20px;
-    align-items:center;
-    jusify-content:space-between;
-    border-radius:10px;
+.profile-container {
+  display: grid;
+  background-color: #ffffff;
+  padding: 20px;
+  align-items: center;
+  jusify-content: space-between;
+  border-radius: 10px;
 }
-.img-fit-cover{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+.img-fit-cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.profile-icon{
-    display: flex;
-    gap:8px;
+.profile-icon {
+  display: flex;
+  gap: 8px;
 }
-.p-icon{
-    display:flex;
-    height:22px;
-    width:22px;
-    color:#3D3D3D;
+.p-icon {
+  display: flex;
+  height: 22px;
+  width: 22px;
+  color: #3d3d3d;
 }
-.img-container img{
-    height:40px;
-    width: 40px;
-    border-radius:100%;
+.img-container img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
 }
-.profile-container p{
-    margin-top:8px;
-    font-size:12px;
-    color:#3D3D3D;
+.profile-container p {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #3d3d3d;
 }
-@media screen and (max-width:800px){
-    .inProgress-container{
-        padding: 8px;
-        gap:10px;
-    } 
-    .Inprogress-header{
-        gap:10px;
-    }
-    .icon{
-        height:18px;
-        width:18px;
-    }
-    .Inprogress-header span{
-        font-weight:600;
-        font-size:14px;
-    }
-    .profile-container{
-        padding:16px;
-    }
-    .profile-icon{
-        gap:6px;
-    }.p-icon{
-        height:18px;
-        width:22px;
-    }
-    .img-container img{
-        height:38px;
-        width: 38px;
-    }
-    .profile-container p{
-        margin-top:6px;
-        font-size:10px;
-    }
-    @media screen and (max-width:650px){
-        .inProgress-container{
-            padding: 6px;
-            gap:8px;
-        } 
-        .Inprogress-header{
-            gap:8px;
-        }
-        .icon{
-            height:14px;
-            width:14px;
-        }
-        .Inprogress-header span{
-            font-weight:600;
-            font-size:12px;
-        }
-        .profile-container{
-            padding:12px;
-        }
-        .profile-icon{
-            gap:6px;
-        }.p-icon{
-            height:14px;
-            width:14px;
-        }
-        .img-container img{
-            height:34px;
-            width: 34px;
-        }
-        .profile-container p{
-            margin-top:4px;
-            font-size:8px;
-        }
-    }
+@media screen and (max-width: 800px) {
+  .inProgress-container {
+    padding: 8px;
+    gap: 10px;
+  }
+  .Inprogress-header {
+    gap: 10px;
+  }
+  .icon {
+    height: 18px;
+    width: 18px;
+  }
+  .Inprogress-header span {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .profile-container {
+    padding: 16px;
+  }
+  .profile-icon {
+    gap: 6px;
+  }
+  .p-icon {
+    height: 18px;
+    width: 22px;
+  }
+  .img-container img {
+    height: 38px;
+    width: 38px;
+  }
+  .profile-container p {
+    margin-top: 6px;
+    font-size: 10px;
+  }
 }
+  @media screen and (max-width: 650px) {
+    .inProgress-container {
+      padding: 6px;
+      gap: 8px;
+    }
+    .Inprogress-header {
+      gap: 8px;
+    }
+    .icon {
+      height: 14px;
+      width: 14px;
+    }
+    .Inprogress-header span {
+      font-weight: 600;
+      font-size: 12px;
+    }
+    .profile-container {
+      padding: 12px;
+    }
+    .profile-icon {
+      gap: 6px;
+    }
+    .p-icon {
+      height: 14px;
+      width: 14px;
+    }
+    .img-container img {
+      height: 34px;
+      width: 34px;
+    }
+    .profile-container p {
+      margin-top: 4px;
+      font-size: 8px;
+    }
+  }
+
