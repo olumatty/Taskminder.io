@@ -16,7 +16,7 @@ const Sidebar = () => {
         <ul className="nav_list">
           <li>
             <a href="#">
-              <button className="nav0-button">
+              <button className="nav0-button nav">
                 <LuLayoutDashboard className="nav-icon" />
                 <span>Dashboard</span>
               </button>
@@ -25,7 +25,7 @@ const Sidebar = () => {
 
           <li>
             <a href="#">
-              <button className="nav1-button">
+              <button className="nav1-button nav">
                 <MdOutlineFolderCopy className="nav-icon" />
                 <span>Projects</span>
               </button>
@@ -34,7 +34,7 @@ const Sidebar = () => {
 
           <li>
             <a href="#">
-              <button className="nav2-button">
+              <button className="nav2-button nav">
                 <GrTask className="nav-icon" />
                 <span>Tasks</span>
               </button>
@@ -43,7 +43,7 @@ const Sidebar = () => {
 
           <li>
             <a href="#">
-              <button className="nav3-button">
+              <button className="nav3-button nav">
                 <LuCalendarCheck2 className="nav-icon" />
                 <span>Calender</span>
               </button>
@@ -53,7 +53,7 @@ const Sidebar = () => {
         <ul className="Logout_side">
           <li>
             <a href="#">
-              <button className="nav5-button">
+              <button className="nav5-button nav">
                 <TbArrowBackUp className="nav-icon" />
                 <span>Logout</span>
               </button>

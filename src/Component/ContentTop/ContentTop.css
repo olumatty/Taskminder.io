@@ -27,7 +27,6 @@
     height:20px;
     top: 50%;
     margin-right:30px;
-    bacgriund:none;
 }
 .content-top-left input{
     width:870px;
@@ -68,16 +67,9 @@
     .main-content-top{
         margin-bottom: 8px;
         padding:22px 28px 16px 28px;
+        justify-content:space-between;
     }
-    .content-top-left .icons{
-        position:absolute;
-        transform: translateY(-50%);
-        right: 0;
-        width: 20px;
-        height:20px;
-        top: 50%;
-        margin-right:30px;
-    }
+    
     .content-top-left input{
         width:470px;
         height:40px;
@@ -96,5 +88,100 @@
 }
 
 @media screen and (max-width:900px){
-    q
+    .main-content-top{
+        margin-bottom: 6px;
+        padding:20px 26px 14px 26px;
+    }
+    .notification-btn-dot{
+        width:8px;
+        height:8px;
+        border-radius:50px;
+        margin-top:-26px;
+        margin-right:86px;
+        right:0;
+    }
+}
+@media screen and (max-width:800px){
+    .main-content-top{
+        margin-bottom: 5px;
+        padding:18px 24px 12px 24px;
+    }
+    .notification-btn-dot{
+        border-radius:50px;
+        margin-top:-25px;
+        margin-right:78px;
+        right:0;
+    }
+    .content-top-left input{
+        width:400px;
+        padding:18px;
+    }
+    .content-top-left .icons{
+        width: 16px;
+        height:16px;
+        top: 45%;
+        margin-right:20px;
+    }
+    .profile img{
+        height:40px;
+        width:40px;
+    }
+    .content-icons{
+        height:20px;
+        width:20px;
+    }
+}
+@media screen and (max-width:650px){
+    .main-content-top{
+        margin-bottom: 3px;
+        padding:8px 6px 4px 6px;
+        justify-content:space-around;
+       
+    .content-top-left input{
+        width:200px;
+        padding:12px;
+    }
+    .profile img{
+        height:36px;
+        width:36px;
+        border-radius:100%;
+    }  
+    .notification-btn-dot{
+        border-radius:50px;
+        margin-top:-25px;
+        margin-right:108px;
+        right:0;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main-content-top{
+        margin-bottom: 3px;
+        padding:4px 4px 4px 4px;
+        justify-content:space-around;
+        margin-left:80px;
+    }
+    }
+    .content-top-left input{
+        width:160px;
+        padding:12px;
+        font-size:12px;
+    }
+    .profile img{
+        height:30px;
+        width:30px;
+        border-radius:100%;
+    }  
+    .notification-btn-dot{
+        display:none;
+    }
+    .content-icons{
+        height:16px;
+        width:16px;
+    }
+    .content-top-left .icons{
+        width: 12px;
+        height:12px;
+        top: 50%;
+        margin-right:16px;
+    }
 }

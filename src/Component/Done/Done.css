@@ -55,3 +55,71 @@
     font-size:12px;
     color:#3D3D3D;
 }
+@media screen and (max-width:800px){
+    .Done-container{
+        padding: 8px;
+        gap:10px;
+    } 
+    .Done-header{
+        gap:10px;
+    }
+    .icon{
+        height:18px;
+        width:18px;
+    }
+    .Done-header span{
+        font-weight:600;
+        font-size:14px;
+    }
+    .profile-container{
+        padding:16px;
+    }
+    .profile-icon{
+        gap:6px;
+    }.p-icon{
+        height:18px;
+        width:22px;
+    }
+    .img-container img{
+        height:38px;
+        width: 38px;
+    }
+    .profile-container p{
+        margin-top:6px;
+        font-size:10px;
+    }
+}
+@media screen and (max-width:650px){
+    .Done-container{
+        padding: 6px;
+        gap:8px;
+    } 
+    .Done-header{
+        gap:8px;
+    }
+    .icon{
+        height:14px;
+        width:14px;
+    }
+    .Done-header span{
+        font-weight:600;
+        font-size:12px;
+    }
+    .profile-container{
+        padding:12px;
+    }
+    .profile-icon{
+        gap:6px;
+    }.p-icon{
+        height:14px;
+        width:14px;
+    }
+    .img-container img{
+        height:34px;
+        width: 34px;
+    }
+    .profile-container p{
+        margin-top:4px;
+        font-size:8px;
+    }
+}
