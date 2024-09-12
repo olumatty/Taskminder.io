@@ -1,7 +1,7 @@
-import './Inprogress.css'
 import { GrInProgress } from "react-icons/gr";
 import { GoPencil } from "react-icons/go";
 import { HiOutlineTrash } from "react-icons/hi";
+import './Inprogress.css';
 const InProgress = () => {
   return (
     <div className="inProgress-container">
