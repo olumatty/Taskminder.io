@@ -87,7 +87,7 @@
     }
     .profile-container p {
         margin-top: 6px;
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 @media screen and (max-width:500px){
@@ -103,20 +103,20 @@
         width:14px;
     }
     .profile-icon{
-        padding:12px;
+        padding:10px;
     }
     .p-icon{
-        height:16px;
-        width:16px;
+        height:15px;
+        width:15px;
     }
     .img-container img{
-        height:32px;
-        width:32px;
+        height:30px;
+        width:30px;
     }
     .profile-container{
-        font-size:9px;
+        font-size:10px;
     }
     .Logout_side{
-        margin-top:200vh;
+        margin-top:180vh;
       }
 }

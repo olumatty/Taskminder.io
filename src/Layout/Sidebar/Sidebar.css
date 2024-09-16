@@ -18,7 +18,6 @@
   
   .user_icon {
     font-size: 24px;
-    margin-right: 10px;
     color:#2563DC;
   }
   
@@ -137,7 +136,7 @@
     }
     .sidebar {
       padding: 20px 14px;
-      width: 100px;
+      width: 80px;
     } 
   .nav_list button,.nav5-button {
     width: 60px;
@@ -182,11 +181,11 @@
     }
     .sidebar {
       padding: 10px 5px;
-      max- width: 60px;
+      max-width: 60px;
       justify-content:flex-start;
     } 
   .nav_list button,.nav5-button {
-    width: 50px;
+    width: 30px;
     padding: 10px 5px;
     font-size: 12px;
     justify-content:center;
@@ -209,7 +208,7 @@
     margin:0;
   }
   .nav_list li, .Logout_side li {
-    margin: 10px 0;
+    margin: 12px 0;
   }
   }
   
