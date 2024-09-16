@@ -78,7 +78,7 @@
         gap:6px;
     }.p-icon{
         height:18px;
-        width:22px;
+        width:18px;
     }
     .img-container img{
         height:38px;
@@ -94,15 +94,11 @@
         padding: 6px;
         gap:8px;
     } 
-    .Done-header{
-        gap:8px;
-    }
     .icon{
         height:14px;
         width:14px;
     }
     .Done-header span{
-        font-weight:600;
         font-size:12px;
     }
     .profile-container{
@@ -111,15 +107,14 @@
     .profile-icon{
         gap:6px;
     }.p-icon{
-        height:14px;
-        width:14px;
+        height:16px;
+        width:16px;
     }
     .img-container img{
-        height:34px;
-        width: 34px;
+        height:32px;
+        width: 32px;
     }
-    .profile-container p{
-        margin-top:4px;
-        font-size:8px;
+    .profile-container {
+        font-size:9px;
     }
 }

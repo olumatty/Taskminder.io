@@ -26,7 +26,7 @@
     background-color:#FFFFFF;
     padding:20px;
     align-items:center;
-    jusify-content:space-between;
+    justify-content:space-between;
     border-radius:10px;
 }
 .img-fit-cover{
@@ -55,71 +55,68 @@
     font-size:12px;
     color:#3D3D3D;
 }
-@media screen and (max-width:800px){
-    .ToDo-container{
+@media screen and (max-width: 800px) {
+    .ToDo-container {
         padding: 8px;
-        gap:10px;
+        gap: 10px;
     } 
-    .ToDo-header{
-        gap:10px;
+    .ToDo-header {
+        gap: 10px;
     }
-    .icon{
-        height:18px;
-        width:18px;
+    .icon {
+        height: 18px;
+        width: 18px;
     }
-    .ToDo-header span{
-        font-weight:600;
-        font-size:14px;
+    .ToDo-header span {
+        font-weight: 600;
+        font-size: 14px;
     }
-    .profile-container{
-        padding:16px;
+    .profile-container {
+        padding: 16px;
     }
-    .profile-icon{
-        gap:6px;
-    }.p-icon{
-        height:18px;
-        width:22px;
+    .profile-icon {
+        gap: 6px;
     }
-    .img-container img{
-        height:38px;
+    .p-icon {
+        height: 18px;
+        width: 18px;
+    }
+    .img-container img {
+        height: 38px;
         width: 38px;
     }
-    .profile-container p{
-        margin-top:6px;
-        font-size:10px;
+    .profile-container p {
+        margin-top: 6px;
+        font-size: 10px;
     }
 }
-@media screen and (max-width:650px){
+@media screen and (max-width:500px){
     .ToDo-container{
-        padding: 6px;
+        padding:6px;
         gap:8px;
-    } 
-    .ToDo-header{
-        gap:8px;
+    }
+    .ToDo-header span{
+        font-size:12px;
     }
     .icon{
         height:14px;
         width:14px;
     }
-    .ToDo-header span{
-        font-weight:600;
-        font-size:12px;
-    }
-    .profile-container{
+    .profile-icon{
         padding:12px;
     }
-    .profile-icon{
-        gap:6px;
-    }.p-icon{
-        height:14px;
-        width:14px;
+    .p-icon{
+        height:16px;
+        width:16px;
     }
     .img-container img{
-        height:34px;
-        width: 34px;
+        height:32px;
+        width:32px;
     }
-    .profile-container p{
-        margin-top:4px;
-        font-size:8px;
+    .profile-container{
+        font-size:9px;
     }
+    .Logout_side{
+        margin-top:200vh;
+      }
 }

@@ -1,11 +1,11 @@
 .sidebar {
-    width: 220px;
+    max-width: 220px;
     background-color: #FFFFFF;
     padding: 34px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    Align-items:center;
+    align-items:center;
     border-right: 1px solid #EEF2FC;
     font-family: "Poppins", sans-serif;
   }
@@ -70,7 +70,7 @@
   }
 
   .Logout_side{
-    margin-top:480px;
+    margin-top:540px;
   }
   .nav5-button{
     display: flex;
@@ -176,24 +176,26 @@
 }
   @media screen and (max-width: 500px) {
     .Logout_side{
-      margin-top:320px;
+      position:relative;
+      margin-top:300px;
       
     }
     .sidebar {
-      padding: 18px 12px;
-      width: 70px;
-      position:fixed;
+      padding: 10px 5px;
+      max- width: 60px;
+      justify-content:flex-start;
     } 
   .nav_list button,.nav5-button {
     width: 50px;
-    height:38px;
-    padding: 10px 12px;
+    padding: 10px 5px;
     font-size: 12px;
+    justify-content:center;
+    align-items:center;
   }
   .nav-icon {
-    margin-left:8px;
     width:10px;
     height:10px;
+    margin:0;
   }
   
   .user_icon {
@@ -202,7 +204,9 @@
   }
   
   .userinfo h4 {
-    font-size: 10px;
+    font-size: 9px;
+    flex-direction:column;
+    margin:0;
   }
   .nav_list li, .Logout_side li {
     margin: 10px 0;

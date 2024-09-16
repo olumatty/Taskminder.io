@@ -56,7 +56,7 @@
   color: #3d3d3d;
 }
 @media screen and (max-width: 800px) {
-  .inProgress-container {
+  .ToDocontainer {
     padding: 8px;
     gap: 10px;
   }
@@ -79,7 +79,7 @@
   }
   .p-icon {
     height: 18px;
-    width: 22px;
+    width: 18px;
   }
   .img-container img {
     height: 38px;
@@ -90,12 +90,9 @@
     font-size: 10px;
   }
 }
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 500px) {
     .inProgress-container {
       padding: 6px;
-      gap: 8px;
-    }
-    .Inprogress-header {
       gap: 8px;
     }
     .icon {
@@ -103,26 +100,21 @@
       width: 14px;
     }
     .Inprogress-header span {
-      font-weight: 600;
       font-size: 12px;
     }
-    .profile-container {
-      padding: 12px;
-    }
     .profile-icon {
-      gap: 6px;
+      padding:12px
     }
     .p-icon {
-      height: 14px;
-      width: 14px;
+      height: 16px;
+      width: 16px;
     }
     .img-container img {
-      height: 34px;
-      width: 34px;
+      height: 32px;
+      width: 32px;
     }
-    .profile-container p {
-      margin-top: 4px;
-      font-size: 8px;
+    .profile-container p{
+      font-size: 9px;
     }
   }
 

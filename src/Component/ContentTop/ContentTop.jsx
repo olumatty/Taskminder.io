@@ -13,7 +13,6 @@ const ContentTop = () => {
       <div className="content-top-btns">
         <div className="content-btns">
           <button>
-            {" "}
             <BsBell className="content-icons" />
           </button>
           <span className="notification-btn-dot"></span>
