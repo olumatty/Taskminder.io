@@ -153,13 +153,11 @@
     }
 
     .content-top-left input{
-        width:100%;
+        width:200px;
         padding:12px;
         font-size:12px;
     }
     .content-top-btns{
-        flex-direction:column;
-        align-item:flex-start;
         width:100%;
         gap:8px;
     }
@@ -171,11 +169,5 @@
     .content-icons{
         height:16px;
         width:16px;
-    }
-    .content-top-left .icons{
-        width: 12px;
-        height:12px;
-        top: 50%;
-        margin-right:16px;
     }
 }
